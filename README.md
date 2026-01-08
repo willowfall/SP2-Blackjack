@@ -14,23 +14,16 @@ Classes
 | --- | --- |
 | **Class Card** | This Card class is the most “basic” class in this set-up. Its responsibility is to represent a card, by holding its attributes such as rank, suit, and value. It also has a method to display itself in a user-friendly manner that easily shows its rank and suit. 
 
- |
 | **Class Deck** |The Deck class is responsible for creating a standard deck of 52 cards for blackjack. It does so by managing a list of 52 card objects, shuffling, and dealing cards.
 
-
- |
 | **Class Hand** | The Hand class is responsible for holding the cards that make up the hand. It holds the objects in a list to which cards can be added. It contains the logic that calculates the ace values, total of the hand, logic, and whether a hand is a bust or a blackjack. It also can present the hand. 
 
- |
 | **Class Player** |The Player Class is responsible to hold the data of the players. It holds attributes like name, balance, hand, and bet amount. It also contains actions/ methods for betting, hitting, and standing.  
 
 | **Class Dealer** | The Dealer Class is of similar nature to the Player class however, is only able to hold hand data, and play turn (hit) and stand. 
 
-
- |
 | **Class BlackjackGame** | The BlackjackGame Class is the controller class in my structure that connects everything together and allows the game to run. It has attributes that track the players in the game, the dealer, the deck in play, and round number. It contains a start method that contains a loop that manages game flow through calling the functions in an order. It manages inputs/outputs, player setup, round actions/ events & round logic. It sets up players, collects the bets, runs player & dealer turns, decides & pays winners, eliminates broke players, presents a round summary, and prompts for continuation after the round. 
 
- |
 
 ---
 
