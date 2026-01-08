@@ -7,8 +7,6 @@ The program logic is visually represented in the attached flowchart.
 
 ## II. Classes 
 
-## II. Classes 
-
 | Class | Description |
 | :--- | :--- |
 | **Class Card** | This Card class is the most “basic” class in this set-up. Its responsibility is to represent a card, by holding its attributes such as rank, suit, and value. It also has a method to display itself in a user-friendly manner that easily shows its rank and suit. |
